@@ -1,0 +1,127 @@
+body {
+    width: 1200px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+    height: 2336px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 64px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 64px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.heroBlock {
+    padding: 274px 386px 256px 386px;
+}
+
+.heroSubhead {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.logoBig {
+    display: block;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../assets/header.png');
+    height: 800px;
+    margin: 0;
+}
+
+.headSection01 {
+    color: #464547;
+}
+
+.section01 {
+    background: #EEEEEE;
+    height: 700px;
+    margin: 0;
+    width: 1200px;
+    position: absolute;
+    top: 800px;
+}
+
+.section02 {
+    height: 666px;
+    background: url('../assets/IMG-main.png');
+    margin: 0;
+    width: 1200px;
+    position: absolute;
+    top: 1500px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+}
+
+.footer {
+    height: 170px;
+    background: #464547;
+    width: 1200px;
+    position: absolute;
+    top: 2166px;
+
+}
+
+.btnRead {
+    background: #55C2D8;
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-radius: 18px;
+    width: 115px;
+    height: 36px;
+    border: none;
+    display: block;
+    margin: 21px auto;
+    padding: 5px 17px 6px 18px;
+}
+
+/* 
+header,
+main,
+section {
+    margin: 0;
+    padding: 0;
+} */
+
+.learnMore {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.btnPlay {
+    background: #39C2D7;
+    color: #FFFFFF;
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 70px;
+    display: block;
+    margin: 10px auto;
+}
