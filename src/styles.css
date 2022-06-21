@@ -116,12 +116,25 @@ section {
 
 .btnPlay {
     background: #39C2D7;
-    color: #FFFFFF;
-    border: none;
+
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    font-size: 70px;
-    display: block;
-    margin: 10px auto;
+    position: absolute;
+    top: 254px;
+    left: 525px;
+
+}
+
+.triangle {
+    position: absolute;
+    top: 47px;
+    left: 40px;
+    margin-left: 15px;
+    width: 0px;
+    height: 0px;
+    border-top: 27.5px solid transparent;
+    border-left: 55px solid white;
+    border-bottom: 27.5px solid transparent;
+    border-radius: 2px;
 }
